@@ -11,7 +11,7 @@ In order to get an account in our dashboard (maybe you have not realized, but th
 ## Live Situation
 After logging in, you will be redirected to the "live situation" page. On this screen you can see the live status of the company. You will see information like, total purchase value, remaining purchase value and total revenue per truck. In the future, this page can be further develop to access the FleetVisor API, and display the location per truck on real time.
 
-![MicrosoftTeams-image](https://github.com/HZ-2223/fpr-team01/assets/112822443/e0f35752-f06d-4b3b-b9ab-fe769a9c0b2e)
+![image](https://github.com/anafaraco01/floras-dashboard/assets/112822443/532424c3-9462-4392-a067-15add13e5034)
 
 ## Performances
 The performances page is based on the sales of the company. It displays information based on past data obtained from the EasyFlor API. This page is divided into two sections. The first sections is a table with the overall and per truck sales performance. This includes the purchase value (sold), revenue of each truck in euros, and the profit margin in percentage. The second section shows three line charts about: the total purchase value of the trucks week by week, the profit margin, and the revenue of the trucks. If you press on the different buttons of the trucks legend, the line of the specific truck will not be displayed. This helps get a clearer overview to analyze each truck's performance.
