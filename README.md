@@ -5,6 +5,16 @@ The dashboard contains three main pages: Live Situation, Performances and Custom
 
 ![img.png](img.png)
 
+## To get started
+```shell script
+$ composer install
+$ cp .env.example .env
+$ php artisan key:generate
+$ php artisan migrate
+$ php artisan db:seed
+$ php ./vendor/bin/phpcs
+```
+
 ## Register
 In order to get an account in our dashboard (maybe you have not realized, but there is not a register option), you have to run a php command to create an admin account. To do so run `php artisan admin:create <your_email>`. This command will provide you a default password '123456'. Later you can use this credentias to login, and you will be redirected to a page to change your password. This step is done to reinforce the security of the account.
 
